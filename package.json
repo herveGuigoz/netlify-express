@@ -17,6 +17,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "netlify-lambda": "^1.6.3",
+    "request": "^2.88.2",
     "serverless-http": "^2.3.1"
   }
 }
