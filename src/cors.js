@@ -11,9 +11,8 @@ app.use((req, res, next) => {
 });
 
 router.get("/", (req, res) => {
-  // api/cors?url=https://www.exemple.com
+  // /cors?url=https://www.exemple.com
   const query = req.query.url
-  // res.send(query)
 
   request(
     { url: query },
